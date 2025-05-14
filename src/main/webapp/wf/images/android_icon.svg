@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_1295" data-name="사각형 1295" width="24" height="24" transform="translate(1021 4931)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="android_icon" transform="translate(-1021 -4931)" clip-path="url(#clip-path)">
+    <path id="android-fill" d="M7.659,4.762a10.8,10.8,0,0,1,13.482,0l1.744-1.744,1.7,1.7L22.838,6.459A10.755,10.755,0,0,1,25.2,13.2v1.2H3.6V13.2A10.754,10.754,0,0,1,5.962,6.459L4.218,4.715l1.7-1.7ZM3.6,16.8H25.2v8.4A1.2,1.2,0,0,1,24,26.4H4.8a1.2,1.2,0,0,1-1.2-1.2Zm7.2-6A1.2,1.2,0,1,0,9.6,9.6,1.2,1.2,0,0,0,10.8,10.8Zm7.2,0a1.2,1.2,0,1,0-1.2-1.2A1.2,1.2,0,0,0,18,10.8Z" transform="translate(1018.6 4928.6)" fill="#fff"/>
+  </g>
+</svg>

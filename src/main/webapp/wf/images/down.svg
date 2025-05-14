@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-path">
+      <circle id="타원_29" data-name="타원 29" cx="6" cy="6" r="6" transform="translate(283 169.441)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="down" transform="translate(-238 -85)">
+    <circle id="타원_28" data-name="타원 28" cx="12" cy="12" r="12" transform="translate(238 85)" fill="#fff" opacity="0.15"/>
+    <g id="마스크_그룹_43" data-name="마스크 그룹 43" transform="translate(-39 -78.441)" clip-path="url(#clip-path)">
+      <path id="arrow-drop-down-line" d="M27.941,34.428l-6-6,2-2,4,4,4-4,2,2Z" transform="translate(261.059 145.013)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

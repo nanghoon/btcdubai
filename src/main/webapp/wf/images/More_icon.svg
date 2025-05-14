@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14" height="14" viewBox="0 0 14 14">
+  <defs>
+    <clipPath id="clip-path">
+      <circle id="타원_39" data-name="타원 39" cx="7" cy="7" r="7" transform="translate(408 6211)" fill="#bebebe"/>
+    </clipPath>
+  </defs>
+  <g id="More_icon" transform="translate(-408 -6211)" clip-path="url(#clip-path)">
+    <path id="more-line" d="M5.5,8.167A1.167,1.167,0,1,0,6.667,9.333,1.17,1.17,0,0,0,5.5,8.167Zm7.667,0a1.167,1.167,0,1,0,1.167,1.167A1.17,1.17,0,0,0,13.167,8.167Zm-3.833,0A1.167,1.167,0,1,0,10.5,9.333,1.17,1.17,0,0,0,9.333,8.167Z" transform="translate(405.667 6208.667)" fill="#fff"/>
+  </g>
+</svg>

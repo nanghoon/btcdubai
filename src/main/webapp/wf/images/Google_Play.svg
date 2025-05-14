@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_1296" data-name="사각형 1296" width="24" height="24" transform="translate(1094 4931)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="Google_Play" transform="translate(-1094 -4931)" clip-path="url(#clip-path)">
+    <path id="google-play-fill" d="M4.252,2.137l12,12-12,12a1.178,1.178,0,0,1-.718-1.085V3.221A1.178,1.178,0,0,1,4.252,2.137ZM17.082,14.97l2.712,2.712L6.909,25.142ZM20.851,11.2l3.307,1.915a1.178,1.178,0,0,1,0,2.039l-3.308,1.915-2.935-2.935ZM6.909,3.131l12.886,7.459L17.082,13.3Z" transform="translate(1091.86 4928.863)" fill="#fff"/>
+  </g>
+</svg>

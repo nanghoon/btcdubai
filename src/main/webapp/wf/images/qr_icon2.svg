@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="110" height="110" viewBox="0 0 110 110">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_1217" data-name="사각형 1217" width="110" height="110" rx="10" transform="translate(800 4861)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="qr_icon2" transform="translate(-800 -4861)" clip-path="url(#clip-path)">
+    <path id="qr-code-fill" d="M97.778,103.889V97.778H79.444V79.444H97.778V91.667H110v12.222h-6.111v12.222H91.667v12.222H79.444V110H91.667v-6.111Zm30.556,24.444H103.889V116.111h12.222V103.889h12.222Zm-110-110H67.222V67.222H18.333Zm61.111,0h48.889V67.222H79.444ZM18.333,79.444H67.222v48.889H18.333Zm91.667,0h18.333V91.667H110ZM36.667,36.667V48.889H48.889V36.667Zm0,61.111V110H48.889V97.778ZM97.778,36.667V48.889H110V36.667Z" transform="translate(781.667 4842.667)" fill="#fff"/>
+  </g>
+</svg>

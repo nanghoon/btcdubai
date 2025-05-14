@@ -1,14 +1,17 @@
 package egovframework.example.sample.utils;
 
 import java.util.List;
+import java.util.Locale;
 
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
 import org.springframework.context.MessageSource;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
+import org.springframework.web.servlet.i18n.SessionLocaleResolver;
 
 import egovframework.example.sample.service.impl.SampleDAO;
 
@@ -28,7 +31,10 @@ public class Interceptor  extends HandlerInterceptorAdapter{
 
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
-//    	HttpSession session = request.getSession();
+    	HttpSession session = request.getSession();
+		Locale locales = new Locale("KO");
+		session.setAttribute(SessionLocaleResolver.LOCALE_SESSION_ATTRIBUTE_NAME, locales);
+
 //    	String url = request.getRequestURI();
 //    	String[] urlArr = request.getRequestURI().split("/");
 //    	String userip = Member.getClientIP(request);
