@@ -84,6 +84,26 @@
 						</div>
 					</div>
 				</div>
+				<div class="popup">
+					<div class="welcomepop">
+						<div class="registpop_blcok">
+							<div class="pop_exist" onclick="javascript:location.href='/btc/login.do'">
+								<img sizes="(max-width: 1600px) 100vw, 1600px" alt="" src="/btc/wf/images/wx.png" loading="lazy" class="close-img">
+							</div>
+							<div class="poptitle welcome">
+								<div class="title6-2"><spring:message code="join.welcome"/></div>
+							</div>
+							<div class="welecomeblock">
+								<div>
+									<spring:message code="join.welcomeTxt"/>
+								</div>
+							</div>
+							<div class="pop_btn-4 welcome">
+								<a href="/btc/login.do" class="confirm-2 w-button"><spring:message code="join.check"/></a>
+							</div>
+						</div>
+					</div>
+				</div>
 			</form>
 		</div>
 		<jsp:include page="frame/bottom.jsp"></jsp:include>
@@ -153,10 +173,10 @@ function join(){
 		data : $("#form").serialize(),
 		url : '/btc/joinProcess.do',
 		success:function(data){
-			alert(data.msg);
 			if(data.result == 'success'){
-				location.href='/btc/login.do';
+				$(".popup , .welcomepop").css('display','flex');
 			}else{
+				alert(data.msg);
 				$("._joinBtn").attr('href','javascript:join()');
 			}
 		}

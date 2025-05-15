@@ -33,8 +33,10 @@ public class Interceptor  extends HandlerInterceptorAdapter{
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
     	HttpSession session = request.getSession();
 		Locale locales = new Locale("KO");
-		session.setAttribute("lang", "KO");
-		session.setAttribute(SessionLocaleResolver.LOCALE_SESSION_ATTRIBUTE_NAME, locales);
+		if(session.getAttribute("lang") == null){
+			session.setAttribute("lang", "KO");
+			session.setAttribute(SessionLocaleResolver.LOCALE_SESSION_ATTRIBUTE_NAME, locales);
+		}
 
 //    	String url = request.getRequestURI();
 //    	String[] urlArr = request.getRequestURI().split("/");

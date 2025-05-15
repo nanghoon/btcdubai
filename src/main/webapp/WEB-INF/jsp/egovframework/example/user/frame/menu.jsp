@@ -1,4 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
 <div data-wf--menu--variant="base" class="menu">
 	<a href="../index.html" class="logo-link mobile-flex w-inline-block">
 		<img src="/btc/wf/images/BTC_Exchange_logo1.svg" loading="lazy" alt="" class="logo-img">
@@ -7,101 +8,105 @@
 		<div class="menu-item-list">
 			<div class="menu-item-box">
 				<a href="../index.html" class="menu-item-link w-inline-block">
-					<h5 class="menu-txt">Main</h5>
+					<h5 class="menu-txt"><spring:message code="menu.main"/></h5>
 				</a>
 			</div>
 			<div class="menu-item-box">
 				<a href="#" class="menu-item-link w-inline-block">
-					<h5 class="menu-txt">Derivatives</h5>
+					<h5 class="menu-txt"><spring:message code="menu.derivatives"/></h5>
 				</a>
 				<div class="menu-hover-box">
 					<a href="../derivatives/perpetual-futures.html" class="menu-item-link-hover futures w-inline-block">
-						<h5 class="menu-txt">Perpetual Futures</h5>
+						<h5 class="menu-txt"><spring:message code="menu.derivatives.futures"/></h5>
 					</a> 
 					<a href="../derivatives/spot-exchange.html" class="menu-item-link-hover spot w-inline-block">
-						<h5 class="menu-txt">Spot</h5>
+						<h5 class="menu-txt"><spring:message code="menu.derivatives.spot"/></h5>
 					</a>
 				</div>
 			</div>
 			<div class="menu-item-box">
 				<a href="#" class="menu-item-link w-inline-block">
-					<h5 class="menu-txt">Copy Trading</h5>
+					<h5 class="menu-txt"><spring:message code="menu.copy"/></h5>
 				</a>
 				<div class="menu-hover-box">
 					<a href="../copy-trading/follow.html" class="menu-item-link-hover follow w-inline-block">
-						<h5 class="menu-txt">Follow</h5>
+						<h5 class="menu-txt"><spring:message code="menu.copy.follow"/></h5>
 					</a> 
 					<a href="../copy-trading/my-copy-trade.html" class="menu-item-link-hover copytrade w-inline-block">
-						<h5 class="menu-txt">My Copy trade</h5>
+						<h5 class="menu-txt"><spring:message code="menu.copy.mycopy"/></h5>
 					</a>
 				</div>
 			</div>
 			<div class="menu-item-box">
 				<a href="#" class="menu-item-link w-inline-block">
-					<h5 class="menu-txt">Wallet</h5>
+					<h5 class="menu-txt"><spring:message code="menu.wallet"/></h5>
 				</a>
 				<div class="menu-hover-box c-flex">
 					<div class="hover-box">
 						<a href="../wallet/property.html" class="menu-item-link-hover property w-inline-block">
-							<h5 class="menu-txt">Property</h5>
+							<h5 class="menu-txt"><spring:message code="menu.wallet.property"/></h5>
 						</a> 
 						<a href="../wallet/deposit.html" class="menu-item-link-hover deposit w-inline-block">
-							<h5 class="menu-txt">Deposit</h5>
+							<h5 class="menu-txt"><spring:message code="menu.wallet.deposit"/></h5>
 						</a> 
 						<a href="../wallet/withdrawal.html" class="menu-item-link-hover withdrawal w-inline-block">
-							<h5 class="menu-txt">Withdrawal</h5>
+							<h5 class="menu-txt"><spring:message code="menu.wallet.withdrawal"/></h5>
 						</a> 
 						<a href="../wallet/history.html" class="menu-item-link-hover history w-inline-block">
-							<h5 class="menu-txt">Histroy</h5>
+							<h5 class="menu-txt"><spring:message code="menu.wallet.history"/></h5>
 						</a>
 					</div>
 					<div class="hover-box">
 						<a href="../wallet/exchange.html" class="menu-item-link-hover exchange w-inline-block">
-							<h5 class="menu-txt">Exchange</h5>
+							<h5 class="menu-txt"><spring:message code="menu.wallet.exchange"/></h5>
 						</a> 
 						<a href="../wallet/futures-exchange.html" class="menu-item-link-hover futures-exchange w-inline-block">
-							<h5 class="menu-txt">Futures Exchange</h5>
+							<h5 class="menu-txt"><spring:message code="menu.wallet.futures"/></h5>
 						</a> 
 						<a href="../wallet/withdrawal-list.html" class="menu-item-link-hover w-inline-block">
-							<h5 class="menu-txt">Withdrawal List</h5>
+							<h5 class="menu-txt"><spring:message code="menu.wallet.withdrawallist"/></h5>
 						</a>
 					</div>
 				</div>
 			</div>
 			<div class="menu-item-box">
 				<a href="#" class="menu-item-link w-inline-block">
-					<h5 class="menu-txt">My Page</h5>
+					<h5 class="menu-txt"><spring:message code="menu.mypage"/></h5>
 				</a>
 				<div class="menu-hover-box">
 					<a href="../my-page/trade-history.html"
 						class="menu-item-link-hover trade-history w-inline-block">
-						<h5 class="menu-txt">Trade History</h5>
+						<h5 class="menu-txt"><spring:message code="menu.mypage.futures"/></h5>
 					</a> 
 					<a href="../my-page/funding-history.html"
 						class="menu-item-link-hover funding-history w-inline-block">
-						<h5 class="menu-txt">Funding History</h5>
+						<h5 class="menu-txt"><spring:message code="menu.mypage.spot"/></h5>
+					</a>
+					<a href="../my-page/funding-history.html"
+						class="menu-item-link-hover funding-history w-inline-block">
+						<h5 class="menu-txt"><spring:message code="menu.mypage.funding"/></h5>
 					</a>
 				</div>
 			</div>
 			<div class="menu-item-box">
 				<a href="../open-api.html" class="menu-item-link w-inline-block">
-					<h5 class="menu-txt">Open API</h5>
+					<h5 class="menu-txt"><spring:message code="menu.api"/></h5>
 				</a>
 			</div>
 		</div>
 		<div class="menu-right">
-			<a href="../member/login.html" class="menu-btn w-button">Log in</a>
-			<a href="../member/signup.html" class="menu-btn sign-up-btn w-button w--current">Sign up</a>
+			<a href="../member/login.html" class="menu-btn w-button"><spring:message code="menu.login"/></a>
+			<a href="../member/signup.html" class="menu-btn sign-up-btn w-button w--current"><spring:message code="menu.join"/></a>
 			<div class="lang-box">
 				<a href="#" class="lang-btn w-button"></a>
 				<div class="lang-list">
-					<a href="#" class="lang-list-btn w-inline-block">
+					<a href="javascript:changeLang('EN')" class="lang-list-btn w-inline-block">
 						<div>English</div>
 					</a> 
-					<a href="#" class="lang-list-btn w-inline-block">
+					<a href="javascript:changeLang('KO')" class="lang-list-btn w-inline-block">
 						<div>한국어</div>
 					</a> 
-					<a href="#" class="lang-list-btn w-inline-block">
+					<!-- <a href="#" class="lang-list-btn w-inline-block">
 						<div>中国人</div>
 					</a> 
 					<a href="#" class="lang-list-btn w-inline-block">
@@ -111,17 +116,17 @@
 						<div>
 							<strong>ចេះខ្មែរដែលបង</strong>
 						</div>
-					</a>
+					</a> -->
 				</div>
 			</div>
 		</div>
 	</div>
 	<div class="mobile-menu">
-		<a href="../index.html" class="mobile-bottom-btn home on w-button">Home</a>
-		<a href="../copy-trading/follow.html" class="mobile-bottom-btn follow w-button">Follow</a> 
-		<a href="../derivatives/perpetual-futures.html" class="mobile-bottom-btn trade w-button">Trade</a> 
-		<a href="../wallet/property.html" class="mobile-bottom-btn wallet w-button">Wallet</a> 
-		<a href="../my-page/trade-history.html" class="mobile-bottom-btn mypage w-button">My Page</a>
+		<a href="../index.html" class="mobile-bottom-btn home on w-button"><spring:message code="menu.main"/></a>
+		<a href="../copy-trading/follow.html" class="mobile-bottom-btn follow w-button"><spring:message code="menu.copy"/></a> 
+		<a href="../derivatives/perpetual-futures.html" class="mobile-bottom-btn trade w-button"><spring:message code="menu.derivatives"/></a> 
+		<a href="../wallet/property.html" class="mobile-bottom-btn wallet w-button"><spring:message code="menu.wallet"/></a> 
+		<a href="../my-page/trade-history.html" class="mobile-bottom-btn mypage w-button"><spring:message code="menu.mypage"/></a>
 	</div>
 </div>
 <script>
@@ -175,4 +180,13 @@ $(".lang-box").click(function() {
 	$(this).children(".lang-list").slideToggle(200);
 	$(this).children('img').toggleClass('open');
 });
+function changeLang(clang) {
+	$.ajax({
+		type : 'post',
+		url : '/btc/changeLanguage.do?lang=' + clang,
+		success : function(data) {
+			location.reload(true);
+		}
+	});
+} 
 </script>
