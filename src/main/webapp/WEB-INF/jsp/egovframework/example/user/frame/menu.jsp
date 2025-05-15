@@ -95,8 +95,8 @@
 			</div>
 		</div>
 		<div class="menu-right">
-			<a href="../member/login.html" class="menu-btn w-button"><spring:message code="menu.login"/></a>
-			<a href="../member/signup.html" class="menu-btn sign-up-btn w-button w--current"><spring:message code="menu.join"/></a>
+			<a href="/btc/login.do" class="menu-btn w-button"><spring:message code="menu.login"/></a>
+			<a href="/btc/join.do" class="menu-btn sign-up-btn w-button w--current"><spring:message code="menu.join"/></a>
 			<div class="lang-box">
 				<a href="#" class="lang-btn w-button"></a>
 				<div class="lang-list">

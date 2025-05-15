@@ -217,6 +217,9 @@ public class MainController {
 		Log.print("in : " + in, "call");
 		int idx = (int)sampleDAO.insert("insertMember" ,in);
 		SocketHandler.sk.userManager.findByIdx(idx);
+		session.setAttribute(authType, null);
+		session.setAttribute("authType", null);
+		session.setAttribute("authCode", null);
 		obj.put("result", "success");
 		obj.put("msg", Message.get().msg(messageSource, "msg.success", request));
 		return obj.toJSONString();
