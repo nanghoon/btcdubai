@@ -13,3 +13,11 @@
 <link href="/btc/wf/images/favicon.ico" rel="shortcut icon" type="image/x-icon">
 <link href="/btc/wf/images/webclip.png" rel="apple-touch-icon">
 <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+<script>
+function SetNum(obj) {
+	val = obj.value;
+	re = /[^0-9]/gi;
+	obj.value = val.replace(re, "");
+}
+
+</script>

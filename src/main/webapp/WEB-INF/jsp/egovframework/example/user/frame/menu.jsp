@@ -165,4 +165,14 @@ $('.menu-hover-box').mouseleave(function() {
         });
     }
 });
+$(".lang-list").on("click",function(){
+	if($(this).next().css("display") == "none"){
+		$(".lang-list").hide();
+	}				
+	$(this).next().slideToggle(200);
+});
+$(".lang-box").click(function() {
+	$(this).children(".lang-list").slideToggle(200);
+	$(this).children('img').toggleClass('open');
+});
 </script>

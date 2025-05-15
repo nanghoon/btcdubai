@@ -29,4 +29,22 @@ public class UserManager {
 	public boolean userAlreadyLoading(int uidx) {
 		return userList.stream().anyMatch(u -> u.idx == uidx);
 	}
+	
+	// idx로 유저 찾기
+	public User findByIdx(int idx) {
+		User user = userList.stream().filter(u -> u.idx == idx).findFirst().orElse(null);
+		if(user == null) {
+			user = addUserByIdx(idx);
+		}
+		return user;
+	}
+
+	public User addUserByIdx(int idx) {
+		EgovMap l= (EgovMap)SocketHandler.sk.getSampleDAO().select("selectMemberByIdx" , idx);
+		if(l == null) return null;
+		User u = new User(l);
+		userList.add(u);
+		return u;
+	}
+	
 }

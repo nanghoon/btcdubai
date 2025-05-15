@@ -13,4 +13,64 @@
             limit #cnt# , 100
         ]]>
 	</select>
+	<select id="selectMemberByIdx" resultClass="EgovMap">
+        <![CDATA[
+            SELECT *
+            FROM member
+            where idx = #idx#
+            limit 1
+        ]]>
+	</select>
+	<select id="selectMemberByPhone" resultClass="EgovMap">
+        <![CDATA[
+            SELECT *
+            FROM member
+            where phone = #phone#
+            limit 1
+        ]]>
+	</select>
+	<select id="selectMemberByEmail" resultClass="EgovMap">
+        <![CDATA[
+            SELECT *
+            FROM member
+            where email = #email#
+            limit 1
+        ]]>
+	</select>
+	<select id="selectMemberChongByInvite" resultClass="EgovMap">
+        <![CDATA[
+            SELECT *
+            FROM member
+            where invite = #invite# and lev = 1 
+            limit 1
+        ]]>
+	</select>
+	<insert id="insertMember">
+		<![CDATA[
+			INSERT INTO member
+				( 
+					name
+				  , pw
+		]]>
+			<isNotEmpty property="phone">, phone</isNotEmpty>
+			<isNotEmpty property="email">, email</isNotEmpty>
+			<isNotEmpty property="phone">, pidx</isNotEmpty>
+		<![CDATA[
+				, invite
+				  )
+			VALUES ( 
+					#name#
+				  , #pw#
+		]]>
+			<isNotEmpty property="phone">, #phone#</isNotEmpty>
+			<isNotEmpty property="email">, #email#</isNotEmpty>
+			<isNotEmpty property="phone">, #pidx#</isNotEmpty>
+		<![CDATA[
+				  , #invite#
+				  )
+		]]>
+		<selectKey keyProperty="idx" resultClass="Integer">
+			SELECT LAST_INSERT_ID()
+		</selectKey>		
+	</insert>
 </sqlMap>

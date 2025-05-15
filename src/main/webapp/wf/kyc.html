@@ -1,10 +1,10 @@
 <!DOCTYPE html><!--  This site was created in Webflow. https://webflow.com  --><!--  Last Published: Thu May 15 2025 05:32:37 GMT+0000 (Coordinated Universal Time)  -->
-<html data-wf-page="679c897d68fb641d4c0af572" data-wf-site="67930f452d3c56c4f68244bb">
+<html data-wf-page="682578629edc65edacbbef05" data-wf-site="67930f452d3c56c4f68244bb">
 <head>
   <meta charset="utf-8">
-  <title>Open-Api</title>
-  <meta content="Open-Api" property="og:title">
-  <meta content="Open-Api" property="twitter:title">
+  <title>KYC</title>
+  <meta content="KYC" property="og:title">
+  <meta content="KYC" property="twitter:title">
   <meta content="width=device-width, initial-scale=1" name="viewport">
   <meta content="Webflow" name="generator">
   <link href="css/normalize.css" rel="stylesheet" type="text/css">
@@ -97,7 +97,7 @@
             </div>
           </div>
           <div class="menu-item-box">
-            <a href="open-api.html" aria-current="page" class="menu-item-link w-inline-block w--current">
+            <a href="open-api.html" class="menu-item-link w-inline-block">
               <h5 class="menu-txt">Open API</h5>
             </a>
           </div>
@@ -135,12 +135,77 @@
         <a href="my-page/trade-history.html" class="mobile-bottom-btn mypage w-button">My Page</a>
       </div>
     </div>
-    <div class="open-api-content">
-      <h1 class="head-txt">API Management</h1>
-      <div class="api-title">Through the Open API provided by BTC, you can utilze various functionalities of BTC&#x27;s platform.<br>By using the Open API, you can access features such as querying your assets on BTC, retrieving<br>order information, placing orders, and cancelling orders, enabling you to engage in digital asset trading.</div>
-      <a href="#" class="api-btn w-button">Create API</a>
-      <div class="no-data">no data</div>
-      <div class="api-title">1.BTC offers powerful APIs that enable you to access market data, execute trades. Check the API documentation to learn how to use these functions.<br><br>2.When you create a new API, you need to set a passphrase to call the API and query the secret key. Make sure to keep your passphrase safe as if you lose it, you will need to create a new API key.<br><br>3.The secret and passphrase are used for private API calls and should never be disclosed.<br><br>4.For security reasons, IPs must be bound to API keys. Up to 30 IPs can be bound to each key. If no IP is bound, you may be restricted from accessing certain functions, such as withdrawing assets or publishing and editing P2P ads.</div>
+    <div class="form-block-33 w-form">
+      <form id="email-form" name="email-form" data-name="Email Form" method="get" data-wf-page-id="682578629edc65edacbbef05" data-wf-element-id="f7a3b2e3-5124-edda-5cc1-11ed80fb7c98">
+        <div class="cs-body">
+          <div class="cs-banner">
+            <div class="cs-banner-title">How may I help you?</div>
+          </div>
+          <div class="frame-max">
+            <div class="cs-container kyc-container">
+              <div class="kyc-contents">
+                <div class="kyc-wrapper">
+                  <div class="custermer_titlewarp">
+                    <div class="title6-4">1차 인증</div>
+                  </div>
+                  <div class="fileblock">
+                    <div>신분증 앞면</div>
+                    <div class="upload-box"><input class="upload-input w-input" maxlength="256" name="field" data-name="Field" placeholder="" type="text" id="field" required="">
+                      <a href="#" class="kyc-btn w-button">파일 업로드</a>
+                    </div>
+                  </div>
+                  <div class="fileblock">
+                    <div>신분증 뒷면</div>
+                    <div class="upload-box"><input class="upload-input w-input" maxlength="256" name="field-2" data-name="Field 2" placeholder="" type="text" id="field-2" required="">
+                      <a href="#" class="kyc-btn w-button">파일 업로드</a>
+                    </div>
+                  </div>
+                  <div class="fileblock">
+                    <div>본인 정면</div>
+                    <div class="upload-box"><input class="upload-input w-input" maxlength="256" name="field-2" data-name="Field 2" placeholder="" type="text" id="field-2" required="">
+                      <a href="#" class="kyc-btn w-button">파일 업로드</a>
+                    </div>
+                  </div>
+                  <div class="sertification_block">
+                    <div class="custermer_titlewarp">
+                      <div class="title6-4">2차 인증</div>
+                    </div>
+                    <div class="c_box"><img loading="lazy" src="images/mobile_icon.svg" alt="" class="c_icon">
+                      <div>Phone Number Verification</div>
+                      <div class="c_section"><img loading="lazy" src="images/check_circle_green.svg" alt="" class="c_icon2"><img loading="lazy" src="https://uploads-ssl.webflow.com/66a321bea5fc5870b20a3033/66a321bea5fc5870b20a3079_canle_circle.svg" alt="" class="c_icon2 off">
+                        <div>01011110000</div>
+                        <a href="#" class="c_btn w-button">Enable</a>
+                      </div>
+                    </div>
+                    <div class="c_box"><img loading="lazy" src="images/email_icon.svg" alt="" class="c_icon">
+                      <div>E-mail Verification</div>
+                      <div class="c_section"><img loading="lazy" src="images/check_circle_green.svg" alt="" class="c_icon2 off"><img loading="lazy" src="https://uploads-ssl.webflow.com/66a321bea5fc5870b20a3033/66a321bea5fc5870b20a3079_canle_circle.svg" alt="" class="c_icon2">
+                        <div>Not linked</div>
+                        <a href="#" class="c_btn w-button">Enable</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="p2p_c_warn-2">
+                    <div class="bold-txt">1차 인증 안내</div>
+                    <div>인증을 받는 <span>본인의 신분증의 앞면과 뒷면, 신분증을 든 본인의 정면 사진</span>을 업로드 해 주세요.<br>‍<br><span class="warn">(단, 본인 인증을 받는 정면 사진에는 식별이 가능하도록 얼굴의 일부 혹은 전체를 가리는 잡화, 머리가 가려지는 모자 등을 착용 한 사진일 경우 인증이 반려 될 수 있습니다.)</span><br><br>인증에는 약 --시간 정도의 시간이 소모 됩니다.</div>
+                  </div><label class="w-checkbox privacy_check"><input type="checkbox" name="checkbox-2" id="checkbox-2" data-name="Checkbox 2" class="w-checkbox-input checkbox-11"><span class="w-form-label" for="checkbox-2">개인정보 수집 및 이용에 동의합니다.</span></label><input type="submit" data-wait="Please wait..." class="submit-btn w-button" value="제출하기">
+                </div>
+              </div>
+              <a href="#" class="logout-btn-2 kyc-logout w-button">Logout</a>
+              <div class="c_complete">
+                <div class="kyc_icon"></div>
+                <div class="kyc-txt">KYC 확인중입니다. <br>최소 10분~1시간 정도 소요되며 KYC가 완성되면 알림으로 알려드립니다.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+      <div class="w-form-done">
+        <div>Thank you! Your submission has been received!</div>
+      </div>
+      <div class="w-form-fail">
+        <div>Oops! Something went wrong while submitting the form.</div>
+      </div>
     </div>
     <div class="footer">
       <div class="line">
@@ -205,7 +270,7 @@
             </a>
           </div>
           <div class="footer-list">
-            <a href="open-api.html" aria-current="page" class="footer-link-block w-inline-block w--current">
+            <a href="open-api.html" class="footer-link-block w-inline-block">
               <div class="footer-title">Open API</div>
             </a>
           </div>
@@ -215,93 +280,8 @@
         <div class="footer-bottom-txt">PROVINCIA 01 SAN JOSE, CANTON 02 EXCAZU, SAN RAFAEL, DEL CENTRO COMERCIAL LA PACO, TRESCIENTOS METROS NORTE, PLAZA FLORENCIA, LOCAL DIEZX, CODIGO POSTAL NUMERO UNO CERO DOS CERO TRES</div>
       </div>
     </div>
-    <div class="popup">
-      <div class="api-popup">
-        <div class="api-popup-contents">
-          <div class="api-form-block w-form">
-            <form id="email-form" name="email-form" data-name="Email Form" method="get" class="api-form" data-wf-page-id="679c897d68fb641d4c0af572" data-wf-element-id="76651798-d82a-a72d-f666-a3b05ade055c">
-              <div class="api-head">Create New API Key</div>
-              <div class="api-input-box">
-                <div><span class="text-span-73">*</span> Note</div><input class="api-input w-input" maxlength="256" name="field" data-name="Field" placeholder="Example Text" type="text" id="field" required="">
-              </div>
-              <div class="api-input-box">
-                <div><span class="text-span-73">*</span> Passphrase (API token)</div><input class="api-input w-input" maxlength="256" name="field-2" data-name="Field 2" placeholder="Example Text" type="text" id="field-2" required="">
-              </div>
-              <div class="api-input-box">
-                <div><span class="text-span-73">*</span> Permissions</div>
-                <div class="w-layout-vflex api-check-block"><label class="w-checkbox api-check-box"><input type="checkbox" id="checkbox" name="checkbox" data-name="Checkbox" class="w-checkbox-input api-check"><span class="w-form-label" for="checkbox">Market Data</span></label><label class="w-checkbox api-check-box"><input type="checkbox" id="checkbox-2" name="checkbox-2" data-name="Checkbox 2" class="w-checkbox-input api-check"><span class="w-form-label" for="checkbox-2">Asset View</span></label><label class="w-checkbox api-check-box"><input type="checkbox" id="checkbox-2" name="checkbox-2" data-name="Checkbox 2" class="w-checkbox-input api-check"><span class="w-form-label" for="checkbox-2">Position View</span></label><label class="w-checkbox api-check-box"><input type="checkbox" id="checkbox-2" name="checkbox-2" data-name="Checkbox 2" class="w-checkbox-input api-check"><span class="w-form-label" for="checkbox-2">Trade-Buy</span></label><label class="w-checkbox api-check-box"><input type="checkbox" id="checkbox-2" name="checkbox-2" data-name="Checkbox 2" class="w-checkbox-input api-check"><span class="w-form-label" for="checkbox-2">Trade-Sell</span></label></div>
-              </div>
-              <div class="api-input-box">
-                <div>Linked IP address (optional, up to 30 per key)</div><textarea placeholder="Example Text" maxlength="5000" id="field-3" name="field-3" data-name="Field 3" class="api-input area w-input"></textarea>
-              </div>
-              <div class="api-input-box">
-                <div>Email Verification : test@naver.com</div>
-                <div class="w-layout-vflex api-wrap-box"><input class="api-input w-input" maxlength="256" name="field-2" data-name="Field 2" placeholder="Example Text" type="text" id="field-2" required="">
-                  <a href="#" class="send-btn w-button">Send</a>
-                </div>
-              </div>
-              <div class="api-input-box">
-                <div>Mobile Verification : 01012341234</div>
-                <div class="w-layout-vflex api-wrap-box"><input class="api-input w-input" maxlength="256" name="field-2" data-name="Field 2" placeholder="Example Text" type="text" id="field-2" required="">
-                  <a href="#" class="send-btn w-button">Send</a>
-                </div>
-              </div>
-              <a href="#" class="confirm-api-key-btn w-button">Confirm</a>
-            </form>
-            <div class="w-form-done">
-              <div>Thank you! Your submission has been received!</div>
-            </div>
-            <div class="w-form-fail">
-              <div>Oops! Something went wrong while submitting the form.</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
   </div>
   <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=67930f452d3c56c4f68244bb" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
   <script src="js/webflow.js" type="text/javascript"></script>
-  <script>
-$('.menu-item-box').mouseenter(function() {
-    let menuIndex = $(this).index();
-    const hoverBox = $(this).find('.menu-hover-box');
-    if (hoverBox.length > 0) { // menu-hover-box가 존재하는 경우
-        $('.menu-hover-box').css({
-            display: 'none' // 모든 menu-hover-box 숨기기
-        });
-        hoverBox.css({
-            display: 'flex' // 해당 menu-hover-box만 flex로 표시
-        });
-    }
-});
-$('.menu-item-box').mouseleave(function() {
-    let menuIndex = $(this).index();
-    const hoverBox = $(this).find('.menu-hover-box');
-    if (hoverBox.length > 0) { // menu-hover-box가 존재하는 경우
-        // item-box에서 벗어났을 때, hoverBox가 여전히 보일 수 있도록 조건 처리
-        setTimeout(() => {
-            if (!hoverBox.is(':hover') && !$(this).is(':hover')) {
-                hoverBox.css({
-                    display: 'none' // hoverBox가 완전히 벗어나면 숨기기
-                });
-            }
-        }, 50); // 타이밍을 조절해 즉시 사라지지 않도록 함
-    }
-});
-$('.menu-hover-box').mouseenter(function() {
-    $(this).css({
-        display: 'flex' // menu-hover-box 위에 마우스를 올리면 유지
-    });
-});
-$('.menu-hover-box').mouseleave(function() {
-    const parentItem = $(this).closest('.menu-item-box');
-    // menu-hover-box에서 마우스를 벗어나면, 해당 부모가 hover 상태일 때만 숨김
-    if (!parentItem.is(':hover')) {
-        $(this).css({
-            display: 'none' // 부모에서 벗어났을 때 숨기기
-        });
-    }
-});
-</script>
 </body>
 </html>
